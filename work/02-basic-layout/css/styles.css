@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+/*Over All structure*/
+#homepage {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "localmenu content"
+    "footer footer";
+  grid-template-columns: 20% 1fr;
+}
+
+/* Head */
+header {
+  grid-area: header;
+  background-color: plum;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu a {
+  padding: 1rem;
+}
+
+.menu a:hover {
+  color: white;
+  box-shadow: inset 200px 0 0 0 rebeccapurple;
+}
+
+/* Main Content */
+/*Left Column*/
+.local-menu {
+  grid-area: localmenu;
+  background-color: pink;
+  border-right: 1.6px solid black;
+}
+
+.local-menu ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.local-menu a {
+  display: block;
+  width: auto;
+  padding: 1.5rem 0 1.5rem 0;
+  padding-right: 5px;
+}
+.local-menu li:hover a {
+  background-color: plum;
+}
+
+/*Right Column*/
+
+main {
+  display: flex;
+  grid-area: content;
+  background-color: pink;
+  padding-left: 15px;
+  flex-direction: column;
+  padding-right: 2%;
+}
+
+/* Footer */
+footer {
+  padding: 1.5%;
+  grid-area: footer;
+  background-color: plum;
+}
