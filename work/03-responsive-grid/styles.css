@@ -1,0 +1,184 @@
+/*General settings*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  background-color: papayawhip;
+  font-family: sans-serif;
+}
+
+/******* Header Part *******/
+/*Define the header in horizontal line*/
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+
+  background-color: burlywood;
+}
+
+@media (max-width: 50rem) {
+  .header {
+    flex-direction: column;
+
+    background-color: burlywood;
+  }
+}
+/*log and text*/
+.logo__text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#logo {
+  margin-right: 1rem;
+  max-width: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.header__title {
+  font-size: 1.5rem;
+}
+
+.localmenu__link {
+  font-size: 1.2rem;
+}
+
+/* Nav bar in the header */
+.localmenu {
+  flex-grow: 1; /*let content takes the remaining space*/
+}
+
+.localmenu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+@media (max-width: 50rem) {
+  .localmenu__list {
+    flex-direction: column;
+    font-size: 1.5rem;
+  }
+}
+
+/******* Main Part *******/
+/* Main Part generals*/
+main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.5rem;
+
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 5rem;
+}
+
+/* Header text */
+.main__title {
+  grid-column: span 12;
+  justify-self: center;
+  font-size: 2rem;
+}
+/* Card */
+.card {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1rem;
+  padding: 1rem 0.5rem;
+  border: 1px solid coral;
+  border-radius: 1rem;
+
+  background-color: white;
+}
+
+/* Breakpoin */
+@media (max-width: 50rem) {
+  .card {
+    grid-column: span 12;
+    padding: 0.25rem;
+    margin: 0 0.5rem;
+  }
+}
+
+.card__title {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
+
+.card__image {
+  display: block;
+  width: 70%;
+  height: 90%;
+  align-self: center;
+}
+
+.card p {
+  padding: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0.2rem;
+
+  text-align: center;
+}
+
+.card a {
+  padding: 0.25rem;
+  margin: 0 auto;
+  margin-top: auto;
+  border: 3px solid yellowgreen;
+  border-radius: 1rem;
+
+  text-align: center;
+  text-decoration: none;
+
+  background-color: yellowgreen;
+}
+
+@media (max-width: 50rem) {
+  .card {
+    margin: 1rem;
+  }
+}
+
+/****** Footer Part ******/
+/* footer */
+.footer {
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.5rem;
+  padding: 0.5rem;
+
+  background-color: rgb(234, 213, 161);
+}
+
+.footer__list {
+  grid-column: span 4;
+  list-style-type: none;
+
+  text-align: center;
+}
+
+.footer__link {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 50rem) {
+  .footer__list {
+    grid-column: span 12;
+  }
+}
