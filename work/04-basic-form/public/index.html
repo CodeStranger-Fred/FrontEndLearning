@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header_title">Register Page</h1>
+    </header>
+    <main class="main">
+      <h2 class="main__header">Registration Form</h2>
+      <form action="/submit" method="POST" class="registerform">
+        <div class="registerform__username">
+          <label>
+            <span>Username<span aria-hidden="true">*</span></span>
+            <input
+              name="name"
+              type="text"
+              aria-required="true"
+              required
+              placeholder="Please Input Username"
+            />
+          </label>
+        </div>
+        <div class="registerform__email">
+          <label>
+            <span>Email<span aria-hidden="true">*</span></span>
+            <input
+              name="email"
+              type="email"
+              aria-required="true"
+              required
+              placeholder="Please Input Email"
+            />
+          </label>
+        </div>
+        <div class="registerform__optionbox">
+          <label>
+            <span>Tier<span aria-hidden="true">*</span></span>
+            <select name="tier">
+              <option value="">[Please select]</option>
+              <option value="1">Silver Tier</option>
+              <option value="2">Gold Tier</option>
+              <option value="3">Platinum Tier</option>
+            </select>
+          </label>
+        </div>
+        <div class="registerform__annoy">
+          <label>
+            <input name="annoy_me" type="checkbox" checked />
+            <span>Do you want us to send you annoying emails?</span>
+          </label>
+        </div>
+        <div class="registerform__hint">
+          <span>
+            (<span aria-hidden="true">*</span> is required field that you must
+            fill in)</span
+          >
+        </div>
+        <div class="registerform__button">
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </main>
+    <footer class="footer">
+      <a class="footer__link" href="#">Privacy Policy</a>
+    </footer>
+  </body>
+</html>
