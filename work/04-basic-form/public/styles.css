@@ -1,0 +1,148 @@
+/*Mobile First*/
+/*General settings*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 200px;
+
+  background-color: papayawhip;
+  font-family: "Gill Sans", sans-serif;
+}
+
+/******* Header Part *******/
+/*Define the header in horizontal line*/
+.header {
+  background-color: rgb(234, 213, 161);
+  padding: 1.2rem;
+}
+
+.header_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.8rem;
+
+  height: 100%;
+}
+
+/******* Main Part *******/
+/* Main Part generals*/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__header {
+  margin-top: 2rem;
+}
+
+.registerform {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+  margin: 1rem;
+  margin-top: 1rem;
+  row-gap: 2rem;
+  width: 80%;
+
+  border: 1rem;
+  border-radius: 1px solid red;
+}
+
+/* In each div label is flex display column base */
+
+.registerform label {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 1.5rem;
+}
+
+.registerform span[aria-hidden="true"] {
+  margin-left: 3px;
+  color: red;
+}
+.registerform span {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  margin-left: 0;
+}
+
+.registerform__hint span {
+  font-size: 0.8rem;
+}
+
+.registerform input,
+select {
+  padding: 0.8rem;
+}
+/* In checkbox label is flex row */
+.registerform__annoy label {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
+.registerform__button button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 0.6rem 1.6rem;
+  margin-top: 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+/****** Footer Part ******/
+/* footer */
+.footer {
+  margin-top: auto;
+  padding: 1.3rem;
+
+  background-color: rgb(234, 213, 161);
+}
+
+.footer__link {
+  font-size: 1.2rem;
+}
+
+/*Use Pc Mode*/
+@media (min-width: 40rem) {
+  .registerform {
+    align-items: center;
+  }
+  .registerform div {
+    min-width: 30rem;
+    width: 80%;
+    max-width: 45rem;
+    margin: 0.5rem;
+  }
+  .registerform label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .registerform input[type="text"],
+  [type="email"] {
+    width: 60%;
+  }
+  .registerform input[type="checkbox"] {
+    width: 20px;
+  }
+  .registerform select {
+    width: 45%;
+  }
+}
