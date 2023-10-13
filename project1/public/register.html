@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="icon.css" />
+    <link rel="stylesheet" href="register.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <title>Register Form</title>
+  </head>
+  <body>
+    <div class="section__head">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <div class="logo__container">
+              <a href="/index.html" class="logo__link">
+                <img
+                  id="logo"
+                  src="images/logo.jpg"
+                  alt="a handwritten deer logo with orange background"
+                />
+                <h1 class="logo__text">World Deer</h1>
+              </a>
+            </div>
+          </div>
+          <div class="navbar__container">
+            <button class="navbar__icon">
+              <i class="gg-menu"></i>
+            </button>
+            <nav class="localmenu">
+              <ul class="localmenu__list">
+                <li class="localmenu__item">
+                  <a class="localmenu__link" href="/index.html">Home</a>
+                </li>
+                <li class="localmenu__item">
+                  <a class="localmenu__link" href="/about.html">About Deer </a>
+                </li>
+                <li class="localmenu__item">
+                  <a class="localmenu__link" href="#"
+                    >Deer Behavior
+                    <span class="sub-arrow"
+                      ><i class="gg-push-chevron-down"></i></span
+                  ></a>
+                  <ul class="submenu__list">
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Eat Behavior</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Sleep Behavior</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Social</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="localmenu__item">
+                  <a class="localmenu__link" href="#"
+                    >Protect Deer
+                    <span class="sub-arrow"
+                      ><i class="gg-push-chevron-down"></i>
+                    </span>
+                  </a>
+                  <ul class="submenu__list">
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="/register.html"
+                        >Register</a
+                      >
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Action Now</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Join Us</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="section__main">
+      <main class="main">
+        <div class="description__text">
+          <h3>
+            Guardians of the Wild: Protecting Deer for a Thriving Tomorrow !
+          </h3>
+          <p>
+            Deer, graceful creatures of the wild, are in need of our protection.
+            Habitat loss and hunting threaten their existence. We must act now
+            to safeguard these majestic animals for future generations to admire
+            and cherish.
+          </p>
+        </div>
+        <div class="registerform__container">
+          <div class="registerform__box">
+            <h2 class="register__title">Register Form</h2>
+            <form action="/register" method="POST" class="registerform">
+              <div class="registerform__username">
+                <label>
+                  <span>Username<sup>*</sup></span>
+                  <input
+                    name="name"
+                    type="text"
+                    aria-required="true"
+                    required
+                    placeholder="Please Input Username"
+                  />
+                </label>
+              </div>
+              <div class="registerform__password">
+                <label>
+                  <span>Password<sup>*</sup></span>
+                  <input
+                    name="password"
+                    type="password"
+                    aria-required="true"
+                    required
+                    placeholder="Please Input Password"
+                  />
+                </label>
+              </div>
+              <div class="registerform__email">
+                <label>
+                  <span>Email<sup>*</sup></span>
+                  <input
+                    name="email"
+                    type="email"
+                    aria-required="true"
+                    required
+                    placeholder="Please Input Email"
+                  />
+                </label>
+              </div>
+              <div class="registerform__optionbox">
+                <label>
+                  <span>Membership<sup>*</sup></span>
+                  <select name="membership" required>
+                    <option value="">[Please select]</option>
+                    <option value="1">Silver Tier</option>
+                    <option value="2">Gold Tier</option>
+                    <option value="3">Platinum Tier</option>
+                  </select>
+                </label>
+              </div>
+              <div class="registerform__privacy">
+                <label>
+                  <input name="privacy" type="checkbox" checked />
+                  <span>Accept privacy and terms conditions</span>
+                </label>
+              </div>
+              <div class="registerform__hint">
+                <span>
+                  (<span aria-hidden="true">*</span> is required field that you
+                  must fill in)</span
+                >
+              </div>
+              <div class="registerform__button">
+                <button type="submit">Register</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="section__footer">
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__col">
+            <span>Company</span>
+            <ul>
+              <li><a href="company.html">about</a></li>
+              <li><a href="service.html">our services</a></li>
+              <li><a href="center.html">center</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <span>Get help</span>
+            <ul>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="report.html">Report</a></li>
+              <li><a href="membership.html">Membership Status</a></li>
+              <li><a href="payment.html">Payment Option</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <span>Privacy</span>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
