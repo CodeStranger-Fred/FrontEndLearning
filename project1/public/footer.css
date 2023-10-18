@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.footer {
+  background-color: #1a2e39;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  min-height: 15vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__col {
+  grid-column: span 12;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer__col span {
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+}
+
+/* This is learned from youtube (I dont know exactly what it means by before)*/
+.footer__col span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer__col ul {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+  line-height: 2rem;
+}
+
+.footer__col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer__col ul li a:hover {
+  color: #fff;
+  padding-left: 10px;
+}
+
+@media (min-width: 50rem) {
+  .footer__col {
+    grid-column: span 4;
+  }
+}
