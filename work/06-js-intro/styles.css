@@ -1,0 +1,189 @@
+/*General Settings*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: antiquewhite;
+}
+
+/* Logo */
+
+.logo__container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.logo__img {
+  width: 200px;
+  height: 150px;
+}
+.logo__img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logo__text h1 {
+  font-size: 3rem;
+}
+
+/* nav bar */
+.navbar__container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.localmenu {
+  flex-grow: 1;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.localmenu__list {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 4rem;
+}
+
+.localmenu__item {
+  position: relative;
+}
+
+.localmenu__button {
+  border: none;
+  background-color: transparent;
+  color: blue;
+
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+
+.localmenu__button.open {
+  background-color: rgb(226, 185, 135);
+  color: aliceblue;
+}
+
+/* submenu */
+.submenu__list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  height: 0;
+  position: absolute;
+  overflow: hidden;
+  background-color: rgb(226, 185, 135);
+  margin-top: 0.5rem;
+  width: 100%;
+  line-height: 1.6;
+}
+
+.submenu__list.open {
+  height: auto;
+} /* when button is clicked the submenu list class will toggle shown */
+
+.submenu__link {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+/******* Main Part *******/
+/* Main Part generals*/
+main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.5rem;
+
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 5rem;
+}
+
+/* Header text */
+.main__title {
+  grid-column: span 12;
+  justify-self: center;
+  align-self: center;
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* Card */
+.card {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1rem;
+  padding: 1rem 0.5rem;
+  border: 1px solid coral;
+  border-radius: 1rem;
+
+  background-color: white;
+}
+
+.card__title {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+.card__image {
+  display: block;
+  width: 300px;
+  height: 200px;
+  max-width: 100%;
+  align-self: center;
+}
+
+.card p {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0.2rem;
+
+  font-size: 1.2rem;
+}
+
+.card a {
+  padding: 0.25rem;
+  margin: 0 auto;
+  margin-top: auto;
+  border: 3px solid yellowgreen;
+  border-radius: 1rem;
+
+  text-align: center;
+  text-decoration: none;
+
+  background-color: yellowgreen;
+}
+
+/***** Footer *****/
+.footer {
+  padding: 3rem;
+  background-color: antiquewhite;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-size: 2rem;
+}
