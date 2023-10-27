@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+}
+/******* Header Part *******/
+/*Define the header in horizontal line*/
+.header {
+  background-color: black;
+  padding: 1.2rem;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.8rem;
+  color: white;
+  height: 100%;
+}
+
+/******* Main Part *******/
+/*Define the register form*/
+.register-form {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr 1fr;
+  max-width: 30rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.register-form__label {
+  grid-column: span 3;
+
+  color: #666666;
+}
+
+.register-form__label--checkbox {
+  grid-column: span 4;
+
+  align-self: center;
+}
+
+.register-form__input {
+  grid-column: span 5;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+.register-form__select {
+  height: 2rem;
+  font-size: 14px;
+}
+.register-form__checkbox {
+  width: 1rem;
+  margin: 0.5rem 0;
+  margin-right: 0.5rem;
+}
+
+.register-form__button {
+  grid-column: span 5;
+  justify-self: center;
+  color: white;
+
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
+  border-radius: 4px;
+
+  background-color: #3c00a0;
+
+  font-size: 1.2rem;
+}
+
+.register-form__button:hover,
+.register-form__button:focus {
+  background-color: #3c00a0;
+}
+
+sup {
+  font-size: 0.3rem;
+  font-weight: 600;
+}
+
+/*validate error*/
+.register-form__error {
+  display: none;
+  grid-column: span 5;
+  color: red;
+}
+
+.register-form__error--username-invalid {
+  display: initial;
+}
+
+.register-form__error--email {
+  display: initial;
+}
+
+.register-form__error--confirm-email {
+  display: initial;
+}
+
+/****** Footer Part ******/
+/* footer */
+.footer {
+  margin-top: auto;
+  padding: 1.3rem;
+
+  background-color: black;
+}
+
+.footer__link {
+  font-size: 1.2rem;
+  color: white;
+}
+
+@media (min-width: 40rem) {
+  body {
+    line-height: 3rem;
+  }
+  .register-form {
+    max-width: 50rem;
+  }
+  .register-form__label {
+    grid-column: span 1;
+  }
+
+  .register-form__input {
+    grid-column: span 2;
+  }
+
+  .register-form__error {
+    grid-column: span 2;
+  }
+
+  .register-form__label--select {
+    grid-column: span 3;
+  }
+
+  .register-form__label--username-valid {
+    grid-column: span 3;
+  }
+}
