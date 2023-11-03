@@ -1,0 +1,12 @@
+Left is the image name under the public repo     Right is the url
+
+logo.jpeg        https://placekitten.com/100/100?image=1
+panel1.jpeg      https://placekitten.com/100/100?image=2
+card1.jpeg       https://placekitten.com/125/125?image=3
+card2.jpeg       https://placekitten.com/125/125?image=4
+card3.jpeg       https://placekitten.com/125/125?image=5
+card4.jpeg       https://placekitten.com/125/125?image=6
+card5.jpeg       https://placekitten.com/125/125?image=7
+card6.jpeg       https://placekitten.com/125/125?image=8
+
+License   Proprietary and Free product   https://creativecommons.org/licenses/by/2.0/
