@@ -1,0 +1,24 @@
+home__background       https://unsplash.com/photos/street-with-angel-light-artwork-vFsD44ubd-Q
+shops1                 https://unsplash.com/photos/man-in-black-leather-jacket-2bAaTFCD8ZQ
+shops2                 https://unsplash.com/photos/man-in-brown-leather-jacket-wearing-black-sunglasses-jvo1UJ-eQaU
+shops3                 https://unsplash.com/photos/woman-in-yellow-tracksuit-standing-on-basketball-court-side-nimElTcTNyY
+shops4                 https://unsplash.com/photos/woman-in-white-long-sleeve-shirt-and-white-pants-standing-on-road-during-daytime-C43tCJffOh4
+gallery1               https://unsplash.com/photos/smiling-woman-in-black-and-white-print-t-shirt-VW5VjskNXZ8
+gallery3               https://unsplash.com/photos/black-and-gray-checkered-dress-shirt-xFmXLq_KJxg
+gallery4               https://unsplash.com/photos/white-v-neck-shirt-on-brown-clothes-hanger-p8Drpg_duLw
+
+gallery5               https://unsplash.com/photos/brown-nike-sneaker-on-yellow-textile-NOpsC3nWTzY
+gallery6               https://unsplash.com/photos/black-and-red-nike-high-top-sneaker-Fc2KdQ2QaVs
+gallery7               https://unsplash.com/photos/pair-of-gray-running-shoes-Y4fKN-RlMV4
+gallery8               https://unsplash.com/photos/gray-and-brown-suede-lace-up-shoe-VQxKattL-X4
+gallery9               https://unsplash.com/photos/black-and-white-new-balance-low-top-sneaker-6zO5VKogoZE
+gallery10              https://unsplash.com/photos/brown-converse-high-top-shoes-YQbJLyY0hFU
+gallery11              https://unsplash.com/photos/unpaired-green-leather-shoe-on-top-of-white-box-KStSiM1UvPw
+gallery12              https://unsplash.com/photos/green-wingtip-shoes-screensho-8j4DiAOBAMo
+
+shops5                 https://unsplash.com/photos/black-and-silver-chronograph-watch-lz6z9GZu8hk
+shops6                 https://unsplash.com/photos/round-silver-colored-chronograph-watch-with-brown-leather-strap-12V36G17IbQ
+shops7                 https://unsplash.com/photos/silver-diamond-ring-on-brown-textile-154TFslA2sg
+shops8                 https://unsplash.com/photos/gold-and-silver-beaded-necklace-uf_IDewI6iQ
+
+license    https://unsplash.com/license

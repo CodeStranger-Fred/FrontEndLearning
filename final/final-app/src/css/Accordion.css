@@ -1,0 +1,94 @@
+.contact-us-nav__list {
+  list-style-type: none;
+  padding: 1rem 0;
+  padding-top: 0;
+  margin-top: 1.5rem;
+  border-top: 1px solid #d5d6db;
+}
+
+.contact-us-nav__button {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  font-weight: 500;
+  border-bottom: 1px solid #d5d6db;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-us-nav__button span {
+  margin-left: 53px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contact-us-nav__title-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-us-nav__submenulist {
+  list-style: none;
+  padding-left: 0;
+  text-align: start;
+}
+
+.contact-us-nav__submenuItem {
+  border-bottom: 1px solid #d5d6db;
+  padding: 1.5rem 0;
+}
+
+.contact-us-nav__submenutext {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.025rem;
+}
+
+.gg-menu {
+  align-self: center;
+}
+
+.gg-math-plus {
+  align-self: center;
+}
+
+.gg-math-minus {
+  align-self: center;
+}
+
+.gg-organisation {
+  transform: scale(2);
+  align-self: center;
+}
+
+.gg-shopping-bag {
+  transform: scale(2);
+  align-self: center;
+}
+
+.gg-gift {
+  transform: scale(2);
+  align-self: center;
+}
+
+.gg-notes {
+  transform: scale(2);
+  align-self: center;
+}
+
+.gg-list {
+  transform: scale(2);
+  align-self: center;
+}
+
+.gg-briefcase {
+  transform: scale(2);
+  align-self: center;
+}

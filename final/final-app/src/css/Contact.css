@@ -1,0 +1,49 @@
+.contact-us {
+  padding: 48px 15.23vw;
+}
+
+.contact-us-nav {
+  text-align: center;
+}
+
+.contact-us-nav__button {
+  line-height: 1;
+  font-size: 1.625rem;
+}
+
+.contact-us__title {
+  color: #181818;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  letter-spacing: 0.0725rem;
+}
+
+.contact-us__detail {
+  color: #181818;
+  margin-top: 0.5rem;
+  text-align: left;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+@media (min-width: 50rem) {
+  .contact-us {
+    padding: 48px 15.23vw;
+  }
+
+  .contact-us__title {
+    font-size: 1.625rem;
+  }
+
+  .contact-us__detail {
+    font-size: 0.875rem;
+    letter-spacing: 0.025rem;
+  }
+}
+
+@media (min-width: 75rem) {
+  .contact-us {
+    padding: 48px 15vw;
+  }
+}

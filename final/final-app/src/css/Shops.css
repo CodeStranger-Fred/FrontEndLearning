@@ -1,0 +1,10 @@
+.panel--bottom {
+  margin-top: 1rem;
+}
+
+@media (min-width: 50rem) {
+  .panel--bottom {
+    margin-top: 0;
+    flex-direction: row-reverse;
+  }
+}

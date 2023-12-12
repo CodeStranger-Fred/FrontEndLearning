@@ -1,0 +1,177 @@
+.register-form__main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.register-form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 2rem 0;
+  padding: 5rem 1rem;
+  padding-top: 3rem;
+  max-width: 30rem;
+  border: 2px solid black;
+}
+
+.register-form__title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.register-form__subtitle {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.register-form__text {
+  margin-top: 1rem;
+  padding: 0 6.5rem;
+  font-size: 0.75rem;
+  font-weight: 420;
+}
+
+.register-form__required {
+  width: 20rem;
+  text-align: right;
+  font-style: italic;
+  font-size: 0.75rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2rem;
+  max-width: 20rem;
+}
+
+.register-form label {
+  text-align: start;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  line-height: 1;
+  font-weight: 350;
+}
+
+.register-form input {
+  font-size: large;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.register-form__deliever {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.register-form__deliever p {
+  margin: 0;
+}
+
+.deliever {
+  padding: 0 2rem;
+  padding-top: 1rem;
+  font-size: 0.75rem;
+  font-weight: 420;
+}
+
+.register-form select {
+  font-size: large;
+  padding: 0.5rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.register-form__addresscheck {
+  text-align: left;
+}
+
+.register-form__button {
+  background-color: black;
+  margin: auto;
+  margin-top: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-form__privacytext {
+  padding: 1.5rem;
+  background-color: #e5e6ea;
+  margin-top: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.0125rem;
+  text-align: left;
+  font-size: 1rem;
+  color: #181818;
+  font-weight: 300;
+}
+
+.register-form__privacytext p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.register-form__protect {
+  margin-top: 1rem;
+  text-align: left;
+  font-weight: 300;
+  letter-spacing: 0.0125rem;
+}
+
+.register-form__button:hover,
+.register-form__button:focus-within {
+  background-color: #444;
+  border-color: #444;
+}
+
+.register-form span {
+  text-align: left;
+  margin-bottom: 1rem;
+  color: red;
+}
+
+.register-form__dialog {
+  padding: 2rem;
+}
+
+.success__text {
+  padding: 2rem 0;
+}
+
+.success__button {
+  margin: auto;
+  padding: 0.5rem 2rem;
+  background-color: #181818;
+  color: white;
+}
+
+@media (min-width: 50rem) {
+  .register-form__container {
+    width: 40rem;
+    max-width: 50rem;
+  }
+
+  .register-form {
+    width: 30rem;
+    max-width: 40rem;
+  }
+
+  .register-form__required {
+    width: 30rem;
+  }
+}
