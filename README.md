@@ -1,6 +1,6 @@
 # INFO6150 - UX Engineering
 
-This repository is how you will receive and submit your assignments and projects.
+This repository is how you will receive and submit your assignments and projects
 
 Key parts:
 
