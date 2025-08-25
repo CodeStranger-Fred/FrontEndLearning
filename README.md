@@ -11,6 +11,6 @@ Key parts:
 - [work/](work/) - Where new assignments appear and are submitted
 - [classes/](classes/) - Where class notes appear
 - [samples/](samples/) - This will appear when I have samples to offer. You should LEARN how these work rather than copying the files.
-- [project1/](project1/), [project2/](project2/), [final/](final/) - These will appear for the various projects and are where you get and submit those project
+- [project1/](project1/), [project2/](project2/), [final/](final/) - These will appear for the various projects and are where you get and submit those projects
 
 
